@@ -7,22 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0504336F20BC7593002EC88E /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504336D20BC7593002EC88E /* GameScene.cpp */; };
+		0504337520BC790E002EC88E /* GameObject2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504337320BC790E002EC88E /* GameObject2D.cpp */; };
+		0504337820BC7985002EC88E /* BackgroundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504337620BC7985002EC88E /* BackgroundManager.cpp */; };
+		0504337B20BC7994002EC88E /* Background.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504337920BC7994002EC88E /* Background.cpp */; };
+		0504338020BC8464002EC88E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0504337F20BC8463002EC88E /* background.jpg */; };
+		0504338220BC84C4002EC88E /* dino_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0504338120BC84C4002EC88E /* dino_sprite.png */; };
+		0504338720BC8711002EC88E /* Dino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338520BC8711002EC88E /* Dino.cpp */; };
+		0504338A20BC8CF0002EC88E /* InputHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338820BC8CF0002EC88E /* InputHandler.cpp */; };
+		0504338D20BC94B7002EC88E /* Obstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338B20BC94B7002EC88E /* Obstacle.cpp */; };
+		0509478C20CADBC400CF79F7 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0509478A20CADBC400CF79F7 /* TextureManager.cpp */; };
+		050AF9B320BF209800FDC108 /* ObstacleManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 050AF9B120BF209800FDC108 /* ObstacleManager.cpp */; };
+		055EAFC620BD5E3A0004FF80 /* DinoManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055EAFC420BD5E3A0004FF80 /* DinoManager.cpp */; };
 		05770CFC20BAE303007A5F1C /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05770CFB20BAE303007A5F1C /* ResourcePath.mm */; };
 		05770CFF20BAE303007A5F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05770CFE20BAE303007A5F1C /* main.cpp */; };
-		05770D0220BAE303007A5F1C /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0120BAE303007A5F1C /* cute_image.jpg */; };
-		05770D0420BAE303007A5F1C /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0320BAE303007A5F1C /* nice_music.ogg */; };
 		05770D0620BAE303007A5F1C /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0520BAE303007A5F1C /* sansation.ttf */; };
 		05770D0820BAE303007A5F1C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0720BAE303007A5F1C /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0504336D20BC7593002EC88E /* GameScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		0504336E20BC7593002EC88E /* GameScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
+		0504337120BC78B6002EC88E /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		0504337320BC790E002EC88E /* GameObject2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject2D.cpp; sourceTree = "<group>"; };
+		0504337420BC790E002EC88E /* GameObject2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject2D.hpp; sourceTree = "<group>"; };
+		0504337620BC7985002EC88E /* BackgroundManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BackgroundManager.cpp; sourceTree = "<group>"; };
+		0504337720BC7985002EC88E /* BackgroundManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BackgroundManager.hpp; sourceTree = "<group>"; };
+		0504337920BC7994002EC88E /* Background.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Background.cpp; sourceTree = "<group>"; };
+		0504337A20BC7994002EC88E /* Background.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Background.hpp; sourceTree = "<group>"; };
+		0504337F20BC8463002EC88E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		0504338120BC84C4002EC88E /* dino_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dino_sprite.png; path = ../../../../Downloads/dino_sprite.png; sourceTree = "<group>"; };
+		0504338520BC8711002EC88E /* Dino.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dino.cpp; sourceTree = "<group>"; };
+		0504338620BC8711002EC88E /* Dino.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dino.hpp; sourceTree = "<group>"; };
+		0504338820BC8CF0002EC88E /* InputHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputHandler.cpp; sourceTree = "<group>"; };
+		0504338920BC8CF0002EC88E /* InputHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputHandler.hpp; sourceTree = "<group>"; };
+		0504338B20BC94B7002EC88E /* Obstacle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Obstacle.cpp; sourceTree = "<group>"; };
+		0504338C20BC94B7002EC88E /* Obstacle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Obstacle.hpp; sourceTree = "<group>"; };
+		0509478A20CADBC400CF79F7 /* TextureManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		0509478B20CADBC400CF79F7 /* TextureManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextureManager.hpp; sourceTree = "<group>"; };
+		050AF9B120BF209800FDC108 /* ObstacleManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ObstacleManager.cpp; sourceTree = "<group>"; };
+		050AF9B220BF209800FDC108 /* ObstacleManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ObstacleManager.hpp; sourceTree = "<group>"; };
+		055EAFC420BD5E3A0004FF80 /* DinoManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DinoManager.cpp; sourceTree = "<group>"; };
+		055EAFC520BD5E3A0004FF80 /* DinoManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DinoManager.hpp; sourceTree = "<group>"; };
 		05770CF620BAE303007A5F1C /* SFML_GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFML_GAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05770CFA20BAE303007A5F1C /* SFML_GAME-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFML_GAME-Info.plist"; sourceTree = "<group>"; };
 		05770CFB20BAE303007A5F1C /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		05770CFD20BAE303007A5F1C /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		05770CFE20BAE303007A5F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		05770D0120BAE303007A5F1C /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		05770D0320BAE303007A5F1C /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		05770D0520BAE303007A5F1C /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		05770D0720BAE303007A5F1C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +93,27 @@
 				05770CFE20BAE303007A5F1C /* main.cpp */,
 				05770D0020BAE303007A5F1C /* Resources */,
 				05770CF920BAE303007A5F1C /* Supporting Files */,
+				0504337120BC78B6002EC88E /* GameObject.hpp */,
+				0504336D20BC7593002EC88E /* GameScene.cpp */,
+				0504336E20BC7593002EC88E /* GameScene.hpp */,
+				0504337320BC790E002EC88E /* GameObject2D.cpp */,
+				0504337420BC790E002EC88E /* GameObject2D.hpp */,
+				0504337620BC7985002EC88E /* BackgroundManager.cpp */,
+				0504337720BC7985002EC88E /* BackgroundManager.hpp */,
+				0504337920BC7994002EC88E /* Background.cpp */,
+				0504337A20BC7994002EC88E /* Background.hpp */,
+				0504338520BC8711002EC88E /* Dino.cpp */,
+				0504338620BC8711002EC88E /* Dino.hpp */,
+				0504338820BC8CF0002EC88E /* InputHandler.cpp */,
+				0504338920BC8CF0002EC88E /* InputHandler.hpp */,
+				0504338B20BC94B7002EC88E /* Obstacle.cpp */,
+				0504338C20BC94B7002EC88E /* Obstacle.hpp */,
+				055EAFC420BD5E3A0004FF80 /* DinoManager.cpp */,
+				055EAFC520BD5E3A0004FF80 /* DinoManager.hpp */,
+				050AF9B120BF209800FDC108 /* ObstacleManager.cpp */,
+				050AF9B220BF209800FDC108 /* ObstacleManager.hpp */,
+				0509478A20CADBC400CF79F7 /* TextureManager.cpp */,
+				0509478B20CADBC400CF79F7 /* TextureManager.hpp */,
 			);
 			path = SFML_GAME;
 			sourceTree = "<group>";
@@ -77,8 +129,8 @@
 		05770D0020BAE303007A5F1C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				05770D0120BAE303007A5F1C /* cute_image.jpg */,
-				05770D0320BAE303007A5F1C /* nice_music.ogg */,
+				0504338120BC84C4002EC88E /* dino_sprite.png */,
+				0504337F20BC8463002EC88E /* background.jpg */,
 				05770D0520BAE303007A5F1C /* sansation.ttf */,
 				05770D0720BAE303007A5F1C /* icon.png */,
 			);
@@ -143,9 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05770D0820BAE303007A5F1C /* icon.png in Resources */,
+				0504338220BC84C4002EC88E /* dino_sprite.png in Resources */,
+				0504338020BC8464002EC88E /* background.jpg in Resources */,
 				05770D0620BAE303007A5F1C /* sansation.ttf in Resources */,
-				05770D0420BAE303007A5F1C /* nice_music.ogg in Resources */,
-				05770D0220BAE303007A5F1C /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0504337820BC7985002EC88E /* BackgroundManager.cpp in Sources */,
+				0504338A20BC8CF0002EC88E /* InputHandler.cpp in Sources */,
+				0504337520BC790E002EC88E /* GameObject2D.cpp in Sources */,
 				05770CFF20BAE303007A5F1C /* main.cpp in Sources */,
+				050AF9B320BF209800FDC108 /* ObstacleManager.cpp in Sources */,
+				0509478C20CADBC400CF79F7 /* TextureManager.cpp in Sources */,
+				0504338720BC8711002EC88E /* Dino.cpp in Sources */,
+				0504338D20BC94B7002EC88E /* Obstacle.cpp in Sources */,
+				055EAFC620BD5E3A0004FF80 /* DinoManager.cpp in Sources */,
+				0504337B20BC7994002EC88E /* Background.cpp in Sources */,
+				0504336F20BC7593002EC88E /* GameScene.cpp in Sources */,
 				05770CFC20BAE303007A5F1C /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "SFML_GAME/SFML_GAME-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "SFML_GAME/SFML_GAME-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
