@@ -12,7 +12,6 @@
 		0504337820BC7985002EC88E /* BackgroundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504337620BC7985002EC88E /* BackgroundManager.cpp */; };
 		0504337B20BC7994002EC88E /* Background.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504337920BC7994002EC88E /* Background.cpp */; };
 		0504338020BC8464002EC88E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0504337F20BC8463002EC88E /* background.jpg */; };
-		0504338220BC84C4002EC88E /* dino_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0504338120BC84C4002EC88E /* dino_sprite.png */; };
 		0504338720BC8711002EC88E /* Dino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338520BC8711002EC88E /* Dino.cpp */; };
 		0504338A20BC8CF0002EC88E /* InputHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338820BC8CF0002EC88E /* InputHandler.cpp */; };
 		0504338D20BC94B7002EC88E /* Obstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0504338B20BC94B7002EC88E /* Obstacle.cpp */; };
@@ -23,6 +22,8 @@
 		05770CFF20BAE303007A5F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05770CFE20BAE303007A5F1C /* main.cpp */; };
 		05770D0620BAE303007A5F1C /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0520BAE303007A5F1C /* sansation.ttf */; };
 		05770D0820BAE303007A5F1C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05770D0720BAE303007A5F1C /* icon.png */; };
+		05E7F24020EC9AEC00EC5A49 /* ConstAndVars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F23E20EC9AEC00EC5A49 /* ConstAndVars.cpp */; };
+		05E7F24220ECA1CF00EC5A49 /* dino_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E7F24120ECA1CF00EC5A49 /* dino_sprite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,6 @@
 		0504337920BC7994002EC88E /* Background.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Background.cpp; sourceTree = "<group>"; };
 		0504337A20BC7994002EC88E /* Background.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Background.hpp; sourceTree = "<group>"; };
 		0504337F20BC8463002EC88E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		0504338120BC84C4002EC88E /* dino_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dino_sprite.png; path = ../../../../Downloads/dino_sprite.png; sourceTree = "<group>"; };
 		0504338520BC8711002EC88E /* Dino.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dino.cpp; sourceTree = "<group>"; };
 		0504338620BC8711002EC88E /* Dino.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dino.hpp; sourceTree = "<group>"; };
 		0504338820BC8CF0002EC88E /* InputHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputHandler.cpp; sourceTree = "<group>"; };
@@ -56,6 +56,9 @@
 		05770CFE20BAE303007A5F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		05770D0520BAE303007A5F1C /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		05770D0720BAE303007A5F1C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		05E7F23E20EC9AEC00EC5A49 /* ConstAndVars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConstAndVars.cpp; sourceTree = "<group>"; };
+		05E7F23F20EC9AEC00EC5A49 /* ConstAndVars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstAndVars.hpp; sourceTree = "<group>"; };
+		05E7F24120ECA1CF00EC5A49 /* dino_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dino_sprite.png; path = ../../../../Downloads/dino_sprite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +107,8 @@
 				0504337A20BC7994002EC88E /* Background.hpp */,
 				0504338520BC8711002EC88E /* Dino.cpp */,
 				0504338620BC8711002EC88E /* Dino.hpp */,
-				0504338820BC8CF0002EC88E /* InputHandler.cpp */,
 				0504338920BC8CF0002EC88E /* InputHandler.hpp */,
+				0504338820BC8CF0002EC88E /* InputHandler.cpp */,
 				0504338B20BC94B7002EC88E /* Obstacle.cpp */,
 				0504338C20BC94B7002EC88E /* Obstacle.hpp */,
 				055EAFC420BD5E3A0004FF80 /* DinoManager.cpp */,
@@ -114,6 +117,8 @@
 				050AF9B220BF209800FDC108 /* ObstacleManager.hpp */,
 				0509478A20CADBC400CF79F7 /* TextureManager.cpp */,
 				0509478B20CADBC400CF79F7 /* TextureManager.hpp */,
+				05E7F23E20EC9AEC00EC5A49 /* ConstAndVars.cpp */,
+				05E7F23F20EC9AEC00EC5A49 /* ConstAndVars.hpp */,
 			);
 			path = SFML_GAME;
 			sourceTree = "<group>";
@@ -129,7 +134,7 @@
 		05770D0020BAE303007A5F1C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0504338120BC84C4002EC88E /* dino_sprite.png */,
+				05E7F24120ECA1CF00EC5A49 /* dino_sprite.png */,
 				0504337F20BC8463002EC88E /* background.jpg */,
 				05770D0520BAE303007A5F1C /* sansation.ttf */,
 				05770D0720BAE303007A5F1C /* icon.png */,
@@ -195,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				05770D0820BAE303007A5F1C /* icon.png in Resources */,
-				0504338220BC84C4002EC88E /* dino_sprite.png in Resources */,
 				0504338020BC8464002EC88E /* background.jpg in Resources */,
+				05E7F24220ECA1CF00EC5A49 /* dino_sprite.png in Resources */,
 				05770D0620BAE303007A5F1C /* sansation.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +237,7 @@
 				0509478C20CADBC400CF79F7 /* TextureManager.cpp in Sources */,
 				0504338720BC8711002EC88E /* Dino.cpp in Sources */,
 				0504338D20BC94B7002EC88E /* Obstacle.cpp in Sources */,
+				05E7F24020EC9AEC00EC5A49 /* ConstAndVars.cpp in Sources */,
 				055EAFC620BD5E3A0004FF80 /* DinoManager.cpp in Sources */,
 				0504337B20BC7994002EC88E /* Background.cpp in Sources */,
 				0504336F20BC7593002EC88E /* GameScene.cpp in Sources */,

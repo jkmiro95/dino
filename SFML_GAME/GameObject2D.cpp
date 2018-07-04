@@ -10,6 +10,8 @@
 #include <iostream>
 #include "ResourcePath.hpp"
 
+GameObject2D::GameObject2D() {}
+
 void GameObject2D::loadTexture(std::string path)
 {
     if (!texture.loadFromFile(path))
@@ -21,17 +23,4 @@ void GameObject2D::loadTexture(std::string path)
     
 }
 
-/*void GameObject2D::loadAnimation(std::string path, int offsetx, int offsety, int sizex, int sizey) {
-    sf::IntRect rectSourceSprite(offsetx, offsety, sizex, sizey);
-    if (!texture2.loadFromFile(path, rectSourceSprite)) {
-        std::cout << "Error loading image";
-    }
-    this->setTexture(texture2);
-}
-
-int GameObject2D::getRealWidth() {
-    return sf::Sprite::getLocalBounds().width * sf::Sprite::getScale().x;
-}
-int GameObject2D::getRealHeight() {
-    return sf::Sprite::getLocalBounds().height * sf::Sprite::getScale().y;
-}*/
+GameObject2D::~GameObject2D() {}

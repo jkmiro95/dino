@@ -17,15 +17,18 @@
 #include "InputHandler.hpp"
 #include "Obstacle.hpp"
 #include "ObstacleManager.hpp"
+#include "ConstAndVars.hpp"
 #include <SFML/Graphics.hpp>
 
 
 class GameScene : public GameObject {
 public:
     GameScene(sf::RenderWindow* window);
+    ~GameScene();
     void process(float delta);
 private:
     sf::RenderWindow* window;
+    ConstAndVars c;
     void setupBackground();
     void setupDino();
     void setupInput();

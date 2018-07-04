@@ -15,6 +15,7 @@
 class InputHandler : public GameObject2D{
 public:
     InputHandler(Dino * dino);
+    ~InputHandler();
     void process(float delta);
 private:
     Dino * dino;

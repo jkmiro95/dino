@@ -21,3 +21,5 @@ void InputHandler::process(float delta) {
         dino->duck();
     }
 }
+
+InputHandler::~InputHandler() {}

@@ -11,11 +11,13 @@
 #include <iostream>
 #include "GameObject2D.hpp"
 #include "TextureManager.hpp"
+#include "ConstAndVars.hpp"
 #include <ctime>
 
 class Dino : public GameObject2D{
 public:
     Dino();
+    ~Dino();
     void process(float delta);
     void jump();
     void duck();
@@ -23,6 +25,7 @@ public:
     float jump_speed;
 private:
     TextureManager* textureManager;
+    ConstAndVars c;
     sf::Texture duckTexture;
     //sf::Clock clock;
     clock_t sec;

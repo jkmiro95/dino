@@ -14,6 +14,7 @@
 class Obstacle : public GameObject2D{
 public:
     Obstacle();
+    ~Obstacle();
     void process(float delta);
     void changeSpeed(float speed);
 private:

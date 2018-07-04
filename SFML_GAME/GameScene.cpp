@@ -45,8 +45,6 @@ void GameScene::process(float delta)
         obstacleManager->stopObstaclesMovement();
         dinoManager->collision = true;
         displayText();
-        //gameObjects2D.clear();
-        //gameObjects.clear();
     }
 };
 
@@ -77,7 +75,7 @@ void GameScene::setupObstacle() {
 void GameScene::setupScore() {
     font.loadFromFile(resourcePath() + "sansation.ttf");
     text.setFont(font);
-    text.setCharacterSize(100);
+    text.setCharacterSize(c.textSize);
     text.setFillColor(sf::Color::Black);
     score = 0;
     text.setString(std::to_string(score));
@@ -93,15 +91,16 @@ void GameScene::updateScore() {
 
 void GameScene::displayText() {
     gameOver.setFont(font);
-    gameOver.setCharacterSize(100);
+    gameOver.setCharacterSize(c.textSize);
     gameOver.setFillColor(sf::Color::Black);
-    gameOver.setPosition(150,100);
+    gameOver.setPosition(c.gameOverWidth,c.gameOverHeight);
     gameOver.setString("Game over");
     window->draw(gameOver);
 }
 
-/*void GameScene::checkCollision() {
-    dino = new Dino();
-    obstacle = new Obstacle();
-    
-}*/
+GameScene::~GameScene() {
+    delete(backgroundManager);
+    delete(obstacleManager);
+    delete(dinoManager);
+    delete(input);
+}

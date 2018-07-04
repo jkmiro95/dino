@@ -20,16 +20,16 @@ DinoManager::DinoManager() {
     loadAnimations();
     dino1.setTexture(textureDino);
     dino1.setTextureRect(rectList[0]);
-    dino1.setPosition(10.0, 450.0);
+    dino1.setPosition(c.widthDinoGenerate, c.heightDinoGenerate);
     collision = false;
 }
 
 void DinoManager::process(float delta) {
     if (collision == false && dino1.dino_duck == false) {
         if (dino1.jump_speed == 0.0) {
-            dino1.setPosition(10.0, 450.0);
+            dino1.setPosition(c.widthDinoGenerate, c.heightDinoGenerate);
         }
-        if (clock.getElapsedTime().asSeconds() > 0.1f) {
+        if (clock.getElapsedTime().asSeconds() > c.animationChangeTime) {
             if (!change) {
                 dino1.setTextureRect(rectList[0]);
                 change = true;
@@ -42,14 +42,14 @@ void DinoManager::process(float delta) {
         }
     } else if (collision == false && dino1.dino_duck == true) {
         dino1.setTextureRect(rectList[3]);
-        dino1.setPosition(10.0, 470.0);
-        if (clock.getElapsedTime().asSeconds() > 1.0f) {
+        dino1.setPosition(c.widthDinoGenerate, c.heightDinoDuckGenerate);
+        if (clock.getElapsedTime().asSeconds() > c.dinoStandUpTime) {
             dino1.dino_duck = false;
             clock.restart();
         }
     }
     else {
-        dino1.setPosition(10.0, 450.0);
+        dino1.setPosition(c.widthDinoGenerate, c.heightDinoGenerate);
         dino1.setTextureRect(rectList[2]);
     }
 };
@@ -72,4 +72,8 @@ void DinoManager::loadAnimations() {
     textureDino3.loadFromFile(resourcePath() + "dino_sprite.png", rectDino3);
     textureDino4.loadFromFile(resourcePath() + "dino_sprite.png", rectDino4);*/
     textureDino = textureManager->texture;
+}
+
+DinoManager::~DinoManager() {
+    delete(textureManager);
 }

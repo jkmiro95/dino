@@ -13,6 +13,7 @@
 class TextureManager {
 public:
     TextureManager();
+    ~TextureManager();
     sf::Texture texture;
     sf::Texture background;
 };

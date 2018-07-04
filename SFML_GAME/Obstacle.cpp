@@ -17,3 +17,5 @@ void Obstacle::process(float delta) {
 void Obstacle::changeSpeed(float speed) {
     obstacle_speed = speed;
 }
+
+Obstacle::~Obstacle() {}

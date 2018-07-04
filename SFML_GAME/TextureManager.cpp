@@ -13,3 +13,5 @@ TextureManager::TextureManager() {
     texture.loadFromFile(resourcePath() + "dino_sprite.png");
     background.loadFromFile(resourcePath() + "background.jpg");
 }
+
+TextureManager::~TextureManager() {}

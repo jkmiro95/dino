@@ -11,11 +11,13 @@
 #include "GameObject.hpp"
 #include "Background.hpp"
 #include "TextureManager.hpp"
+#include "ConstAndVars.hpp"
 #include <list>
 
 class BackgroundManager : public GameObject {
 public:
     BackgroundManager();
+    ~BackgroundManager();
     void process(float delta);
     std::vector<Background*> getBackgrounds();
     void stopBackgroundMovement();
@@ -24,7 +26,9 @@ private:
     Background* background1;
     Background* background2;
     TextureManager* textureManager;
+    ConstAndVars c;
     sf::Texture backgroundTexture;
+    sf::Clock timer;
     void buildBackgrounds();
     int speed;
     int backgroundWidth;

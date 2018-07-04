@@ -13,6 +13,8 @@
 
 class GameObject2D : public GameObject, public sf::Sprite {
 public:
+    GameObject2D();
+    ~GameObject2D();
     void loadTexture(std::string path);
     //int getRealWidth();
     //int getRealHeight();

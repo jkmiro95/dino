@@ -11,11 +11,13 @@
 #include "GameObject.hpp"
 #include "Dino.hpp"
 #include "TextureManager.hpp"
+#include "ConstAndVars.hpp"
 //#include <list>
 
 class DinoManager : public GameObject {
 public:
     DinoManager();
+    ~DinoManager();
     void process(float delta);
     Dino* getDino();
     bool collision;
@@ -23,6 +25,7 @@ public:
 private:
     Dino dino1;
     TextureManager* textureManager;
+    ConstAndVars c;
     void loadAnimations();
     sf::Texture textureDino;
     sf::Texture textureDino2;

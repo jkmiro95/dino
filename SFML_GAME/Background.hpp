@@ -14,10 +14,10 @@
 class Background : public GameObject2D {
 public:
     Background();
+    ~Background();
     void process(float delta);
     void setSpeed(int speed);
-private:
-    int speed;
+    float speed;
 };
 
 #endif /* Background_hpp */

@@ -15,11 +15,13 @@
 #include "BackgroundManager.hpp"
 #include "TextureManager.hpp"
 #include <list>
+#include "ConstAndVars.hpp"
 //#include <iostream>
 
 class ObstacleManager : public GameObject {
 public:
     ObstacleManager(std::list<GameObject2D*>* gameObjects2D);
+    ~ObstacleManager();
     void process(float delta);
     std::list<Obstacle*> obstacles;
     bool checkCollision(Dino* dino);
@@ -30,6 +32,7 @@ private:
     BackgroundManager* backgroundManager;
     TextureManager* textureManager;
     std::list<GameObject2D*>* gameObjects2D;
+    ConstAndVars c;
     void loadCactis();
     void loadPteros();
     sf::Clock timer;

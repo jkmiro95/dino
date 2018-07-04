@@ -18,3 +18,5 @@ void Background::process(float delta)
 void Background::setSpeed(int speed) {
     this->speed = speed;
 }
+
+Background::~Background() {}
